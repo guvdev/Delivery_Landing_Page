@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheiro Verde Cardapio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        xintegrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+    <header class="bg-[#00A249] text-white w-full">
+        <div class="h-16 flex justify-between gap-8 items-center p-8 mx-auto md:px-24 px-8">
+            <img src="https://placehold.co/64x64/00A249/FFFFFF?text=CV" alt="Logo Cheiro Verde" class="h-16 w-16 p-1 rounded-full">
+            <nav class="md:space-x-8 space-x-4 font-medium text-md">
+                <a href="inicio.html" class="inline-block transition transform hover:scale-110 duration-300">Inicio</a>
+                <a href="cardapio.html" class="inline-block transition transform hover:scale-110 duration-300">Cardapio</a>
+                <a href="contato.html" class="inline-block transition transform hover:scale-110 duration-300">Ajuda/Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="text-center my-8">
+        <h1 class="text-3xl font-bold">Conheça nosso cardápio</h1>
+        <p class="text-gray-600">Pizzas, Combos & Bebidas</p>
+        <span id="date-span" class="bg-green-600 text-white px-4 py-1 rounded-lg mt-2 inline-block">Aberto</span>
+    </div>
+
+
+    <main id="menu" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-4 mb-16">
+
+        
+        <div class="flex gap-4 bg-white p-4 rounded-lg shadow-md" data-name="Combo Doce Tentação" data-price="95.90">
+            <img src="https://placehold.co/112x112/EBF5FB/17202A?text=Pizza" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="flex flex-col justify-between w-full">
+                <div>
+                    <p class="font-bold text-lg">Combo Doce Tentação</p>
+                    <p class="text-sm text-gray-700">1 pizza doce de brigadeiro + 1 pizza doce de morango com chocolate + refrigerante lata.</p>
+                </div>
+                <div class="flex items-center justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 95,90</p>
+                    <button class="add-to-cart-btn bg-gray-900 text-white px-4 py-2 rounded-full hover:bg-green-600 duration-200"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+       
+
+        
+        <div class="flex gap-4 bg-white p-4 rounded-lg shadow-md" data-name="Combo Dupla de Sabores" data-price="89.90">
+            <img src="https://placehold.co/112x112/EBF5FB/17202A?text=Pizza" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="flex flex-col justify-between w-full">
+                <div>
+                    <p class="font-bold text-lg">Combo Dupla de Sabores</p>
+                    <p class="text-sm text-gray-700">2 pizzas médias de sabores diferentes + 1 refrigerante de 1,5 litro.</p>
+                </div>
+                <div class="flex items-center justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 89,90</p>
+                    <button class="add-to-cart-btn bg-gray-900 text-white px-4 py-2 rounded-full hover:bg-green-600 duration-200"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+       
+
+        
+        <div class="flex gap-4 bg-white p-4 rounded-lg shadow-md" data-name="Pizza Calabresa" data-price="59.90">
+            <img src="https://placehold.co/112x112/EBF5FB/17202A?text=Pizza" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="flex flex-col justify-between w-full">
+                <div>
+                    <p class="font-bold text-lg">Pizza Calabresa</p>
+                    <p class="text-sm text-gray-700">Tradicional pizza de calabresa com cebola roxa fatiada e azeitonas pretas.</p>
+                </div>
+                <div class="flex items-center justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 59,90</p>
+                    <button class="add-to-cart-btn bg-gray-900 text-white px-4 py-2 rounded-full hover:bg-green-600 duration-200"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+       
+        
+        
+        <div class="flex gap-4 bg-white p-4 rounded-lg shadow-md" data-name="Pizza Portuguesa" data-price="64.90">
+            <img src="https://placehold.co/112x112/EBF5FB/17202A?text=Pizza" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="flex flex-col justify-between w-full">
+                <div>
+                    <p class="font-bold text-lg">Pizza Portuguesa</p>
+                    <p class="text-sm text-gray-700">Mussarela, presunto, ovo, cebola, pimentão e azeitonas. Um clássico!</p>
+                </div>
+                <div class="flex items-center justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 64,90</p>
+                    <button class="add-to-cart-btn bg-gray-900 text-white px-4 py-2 rounded-full hover:bg-green-600 duration-200"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+       
+
+        
+        <div class="flex gap-4 bg-white p-4 rounded-lg shadow-md" data-name="Refrigerante Lata" data-price="6.90">
+            <img src="https://placehold.co/112x112/D6EAF8/17202A?text=Refri" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="flex flex-col justify-between w-full">
+                <div>
+                    <p class="font-bold text-lg">Refrigerante Lata</p>
+                    <p class="text-sm text-gray-700">Coca-Cola, Guaraná ou Sprite 350ml.</p>
+                </div>
+                <div class="flex items-center justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 6,90</p>
+                    <button class="add-to-cart-btn bg-gray-900 text-white px-4 py-2 rounded-full hover:bg-green-600 duration-200"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+       
+
+        
+        <div class="flex gap-4 bg-white p-4 rounded-lg shadow-md" data-name="Suco Natural" data-price="9.90">
+            <img src="https://placehold.co/112x112/D6EAF8/17202A?text=Suco" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+            <div class="flex flex-col justify-between w-full">
+                <div>
+                    <p class="font-bold text-lg">Suco Natural</p>
+                    <p class="text-sm text-gray-700">Laranja, limão ou maracujá 500ml.</p>
+                </div>
+                <div class="flex items-center justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 9,90</p>
+                    <button class="add-to-cart-btn bg-gray-900 text-white px-4 py-2 rounded-full hover:bg-green-600 duration-200"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+       
+
+    </main>
+
+    
+    <div id="cart-modal" class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-4">Meu carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col max-h-[250px] overflow-y-auto"></div>
+
+            <p class="font-bold text-lg">Total: <span id="cart-total">R$ 0,00</span></p>
+
+            <p class="font-bold mt-4">Endereço de entrega:</p>
+            <input type="text" placeholder="Digite seu endereço completo..." id="address"
+                class="w-full border-2 p-1 rounded my-1">
+            <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn" class="bg-gray-300 px-4 py-2 rounded-md hover:bg-gray-400">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">Finalizar pedido</button>
+            </div>
+        </div>
+    </div>
+   
+
+
+    <footer class="w-full bg-[#00A249] py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
+            (<span id="cart-count">0</span>)
+            Veja meu carrinho
+            <i class="fa-solid fa-cart-shopping text-lg text-white"></i>
+        </button>
+    </footer>
+
+    <script src="app.js"></script>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed top-5 right-5 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg hidden z-[100]">
+        <p id="toast-message"></p>
+    </div>
+
+</body>
+
+</html>
+
