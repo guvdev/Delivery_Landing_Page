@@ -1,2 +1,2 @@
 # Delivery_Landing_Page
-
+Uma página criada para delivery, contém apenas sistema de horario aberto/fechado em js. Carrinho de compras em desenvolvimento...
